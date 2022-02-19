@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="resourse/css/responsive.css">
   <link rel="stylesheet" href="varndors/css/grid.css">
   <link rel="stylesheet" href="varndors/css/normalize.css">
+  <link rel="stylesheet" href="varndors/css/animated-circle.css">
 
 </head>
 <body>
@@ -25,8 +26,8 @@
         <ul class="main-nav">
           <li><a href="#" class="active">Home</a></li>
           <li><a href="#service">Service</a></li>
-          <li><a href="#">Word</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#team">team</a></li>
+          <li><a href="#skill">Skills</a></li>
           <li><a href="#">Blog</a></li>
         </ul>
       </div>
@@ -44,7 +45,7 @@ and we build awesome websites and mobile apps.</h1>
 
   <!-- service section start -->
 
-  <section class="services-section clearfix" id="service">
+  <section class="services-section" id="service">
     <div class="row">
       <h2>SERVICES WE PROVIDE</h2>
       <p class="littel-discription">We are working with both individuals and businesses from all over the globe
@@ -87,7 +88,7 @@ and we build awesome websites and mobile apps.</h1>
 
   <!-- Team section start -->
 
-  <section class="team-section clearfix">
+  <section class="team-section " id="team">
     <div class="row">
       <h2>MEET OUR BEAUTIFUL TEAM</h2>
       <p class="littel-discription">
@@ -164,16 +165,68 @@ and we build awesome websites and mobile apps.</h1>
 
   <!-- Team section End -->
 
+  <!-- skills section start -->
+
+  <sectin class="skill-section" id="skill">
+    <div class="row">
+      <h2>WE GOT SKILLS!</h2>
+      <p class="littel-discription">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="row">
+
+      <div class="col span_1_of_4 box">
+        <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset:    39.58406743523136;">
+              </circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+        </svg>
+        <h3>Web Design</h3>
+      </div>
+
+      <div class="col span_1_of_4 box">
+        <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset:    39.58406743523136;">
+              </circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+        </svg>
+        <h3>HTML / CSS</h3>
+      </div>
+
+      <div class="col span_1_of_4 box">
+        <svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset:    39.58406743523136;">
+              </circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+        </svg>
+        <h3>Graphic Design</h3>
+      </div>
+
+      <div class="col span_1_of_4 box">
+        <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+              <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset:    39.58406743523136;">
+              </circle>
+              <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+        </svg>
+        <h3>UI / UX</h3>
+      </div>
+    </div>
+  </sectin>
+
+  <!-- skills section End -->
 
 
 
 
-
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="varndors/js/html5shiv.min.js"></script>
 <script src="varndors/js/respond.min.js"></script>
 <script src="varndors/js/selectivizr.js"></script>
+<script src="varndors/js/animated-circle.js"></script>
+<script src="varndors/js/main.js"></script>
 
 </body>
 </html>
