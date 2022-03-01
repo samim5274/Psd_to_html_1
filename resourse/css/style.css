@@ -460,6 +460,70 @@ svg.ui-ux circle {
 
 /* protfolio section End 15 */
 
+/* contact section start */
+
+.contact-section {
+  text-align: center;
+  background: linear-gradient(rgba(60, 84, 153, 0.9),rgba(60, 84, 153, 0.9)), url(img/sp2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#contact{
+  padding: 12.5rem 0;
+}
+
+.contact-section h2::after {
+  background: #273a71;
+}
+
+.contact-section .littel-discription {
+  color: #fff;
+}
+
+.contact-section form {
+  margin-top: 5rem;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+  background: #273a71;
+  border: .1rem solid #273a71;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  font-size: 1.8rem;
+  color: #fff;
+  margin: .5rem 0;
+}
+
+.contact-section textarea {
+  height: 20rem;
+}
+
+.contact-section form ::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.btn-submit {
+  border: 0;
+  border-bottom: .3rem solid #299ec5;
+  background: #30bae7;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
+  background: #273a71;
+}
+
+/* contact section End 17 */
+
 
 
 
