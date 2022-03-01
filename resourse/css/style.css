@@ -405,19 +405,60 @@ svg.ui-ux circle {
 /* testimonial section Start */
 
 .testimonial {
-  background:linear-gradient(rgba(215,70,128,0.9),rgba(215,70,128,0.9)), url(img/bg10.jpg);
+  background:linear-gradient(rgba(215,70,128,0.9),rgba(215,70,128,0.9)), url(img/bg1.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
-.testimonial img {
-  height: 350px;
-  width: 350px;
+.testimonial  .littel-discription {
+  text-align: center;
+  color: #fff;
 }
 
-/* protfolio section End */
+.testimonial .col:nth-child(3) {
+  margin-left: 0;
+}
+
+.testimonial .col:nth-child(1),
+.testimonial .col:nth-child(2) {
+  margin-top: 4rem;
+}
+
+.testimonial .col:nth-child(3),
+.testimonial .col:nth-child(4) {
+  margin-top: 8rem;
+}
+
+.client-photo {
+  width: 10rem;
+  float: left;
+}
+
+.client-photo img {
+  height: 8rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+
+.client-review {
+  width: 35rem;
+  float: left;
+}
+
+.client-review p {
+  font-size: 2.1rem;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.client-review .role {
+  color: #ffdd99;
+}
+
+/* protfolio section End 15 */
 
 
 
