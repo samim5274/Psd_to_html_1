@@ -12,6 +12,18 @@ $(document).ready(function(){
     }
   });
 
+  // Active menu section
+
+  $("nav ul li a").click(function(){
+    $("nav ul li a").removeClass("active");
+    $(this).addClass("active");
+  });
+
+  $("nav a img.logo").click(function(){
+    $("nav ul li:first-child a").removeClass("active");
+    $(this).addClass("active");
+  });
+
 
   // MIXITUP (PROTFOLIO SECTION)
   var mixer = mixitup('.container');

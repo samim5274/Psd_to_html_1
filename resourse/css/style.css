@@ -203,6 +203,10 @@ header {
   text-align: center;
 }
 
+.hero-text-box{
+  width: 114rem;
+}
+
 .btn-hero:link,
 .btn-hero:visited {
   background: #eb7d4b;

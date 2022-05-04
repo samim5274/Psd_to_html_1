@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1024) {
+  .row{
+    margin: 15px;
+  }
+  .main-nav{
+    display: none;
+  }
+  html{
+    font-size: 57.5%;
+  }
+}
