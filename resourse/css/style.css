@@ -16,6 +16,10 @@ body{
   font-size: 1.6rem;
 }
 
+:focus {
+  outline: 0;
+}
+
 /* header design  */
 
 ul li {
@@ -212,6 +216,67 @@ header {
 .btn-hero:visited {
   background: #eb7d4b;
   border-color: #c86a40;
+}
+
+/* Mobail menu */
+
+.mobail-menu span {
+  color: #fff;
+  font-size: 4rem;
+  float: right;
+  margin-top: 2rem;
+  display: none;
+}
+
+.mobail-menu span:hover {
+  cursor: pointer;
+}
+
+.overlay {
+  width: 0%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+  overflow-x: hidden;
+  transition: .5s;
+}
+
+.overlay-contect {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay-contect a {
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  font-size: 3rem;
+  color: #999;
+  letter-spacing: .3rem;
+  padding: 1rem 0;
+}
+
+.overlay-contect a:hover {
+  color: #fff;
+}
+
+.closebtn {
+  position: absolute;
+  top: 2rem;
+  right: 4.2rem;
+  font-size: 4.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sticky .mobail-menu span {
+  margin-top: 0;
+  line-height: 1;
 }
 
 /* header section end */
@@ -576,7 +641,7 @@ svg.ui-ux circle {
 }
 
 
-/* Footer section End 18 */
+/* Footer section End 22 */
 
 
 

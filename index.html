@@ -21,7 +21,7 @@
   <header id="home">
     <nav>
       <div class="row">
-        <a href="#">
+        <a href="#home">
           <img src="resourse/img/logo.png" alt="Cuda" class="logo">
         </a>
         <ul class="main-nav">
@@ -33,8 +33,24 @@
           <li><a href="#testimonial">testimonial</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
+        <div class="mobail-menu">
+          <span onclick="openNav()">&#9776;</span>
+          <div class="overlay" id="myNav">
+            <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+            <div class="overlay-contect">
+              <a onclick="closeNav()" href="#home">Home</a>
+              <a onclick="closeNav()" href="#service">Service</a>
+              <a onclick="closeNav()" href="#team">team</a>
+              <a onclick="closeNav()" href="#skill">Skills</a>
+              <a onclick="closeNav()" href="#protfolio">protfolio</a>
+              <a onclick="closeNav()" href="#testimonial">testimonial</a>
+              <a onclick="closeNav()" href="#contact">contact</a>
+            </div>
+          </div>
+        </div>
       </div>
     </nav>
+
     <div class="row">
       <div class="hero-text-box">
         <h1>Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
@@ -379,7 +395,7 @@
 <script src="varndors/js/jquery.waypoints.min.js"></script>
 <script src="varndors/js/animated-circle.js"></script>
 <script src="varndors/js/mixitup.min.js"></script>
-<script src="varndors/js/main.js"></script>
+<script src="resourse/js/main.js"></script>
 
 </body>
 </html>
